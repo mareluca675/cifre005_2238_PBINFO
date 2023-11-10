@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    long long n, uc, s = 0, r, i = 1, a, k = 0;
+    
+    cin >> n >> r;
+    
+    while(i <= n)
+    {
+        cin >> a;
+        
+        if(a % 9 == r)
+        {
+            k ++;
+        }
+        
+        i++;
+    }
+    
+    cout << k;
+    
+}
